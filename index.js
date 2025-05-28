@@ -30,7 +30,7 @@ const {izumitext1} = require('./lib/bugs/izumitext1'), {izumitext2} = require('.
 const {thejo} = require('./lib/bugs/thejo');
 if (!fs.existsSync(__dirname + '/session/creds.json')) {
     if (config.SESSION_ID) {
-        const sessdata = config.SESSION_ID.replace('VAJIRA-MD=', ''), filer = File.fromURL('https://mega.nz/file/' + sessdata);
+        const sessdata = config.SESSION_ID.replace('PRABATH-MD~', ''), filer = File.fromURL('https://mega.nz/file/' + sessdata);
         filer.download((_0x3d55a8, _0x2e8d69) => {
             ;
             ;
